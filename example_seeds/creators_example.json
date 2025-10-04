@@ -1,0 +1,15 @@
+[
+  {
+    "id": "c001",
+    "name": "Ana Silva",
+    "tags": ["fintech", "investimentos", "educação"],
+    "audience_age": [25, 45],
+    "audience_location": ["BR", "PT"],
+    "avg_views": 50000,
+    "ctr": 0.03,
+    "cvr": 0.15,
+    "price_min": 50000,
+    "price_max": 200000,
+    "reliability_score": 0.9
+  }
+]

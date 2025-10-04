@@ -48,25 +48,28 @@ past_deals(id, creator_id, campaign_id, delivered_on_time, performance_score)
 }
 ```
 
-Resposta (exemplo resumido):
+Resposta (exemplo):
 
 ```json
-[
-  {
-    "creator_id": "c789",
-    "score": 0.82,
-    "fit_breakdown": {
-      "tags": 0.35,
-      "audience_overlap": 0.25,
-      "performance": 0.15,
-      "budget_fit": 0.07,
-      "reliability": 0.10,
-      "recency": 0.10,
-      "penalties": -0.20
-    },
-    "why": "Fala de fintech; 65% audiência BR 18–34; 9/10 no prazo; CPA estimado ok."
+{
+  "recommendations": [
+    {
+      "creator_id": "c789",
+      "score": 0.82,
+      "fit_breakdown": {
+        "tags": 0.35,
+        "audience_overlap": 0.25,
+        "performance": 0.15,
+        "budget_fit": 0.07
+      },
+      "why": "Fala de fintech; 65% audiência BR 18–34; 9/10 no prazo"
+    }
+  ],
+  "metadata": {
+    "total_creators": 150,
+    "scoring_version": "1.0"
   }
-]
+}
 ```
 
 ### Modelo de Scoring (Base)

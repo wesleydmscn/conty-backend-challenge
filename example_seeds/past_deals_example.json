@@ -1,0 +1,9 @@
+[
+    {
+      "id": "deal001",
+      "creator_id": "c001",
+      "campaign_id": "camp001",
+      "delivered_on_time": true,
+      "performance_score": 0.85
+    }
+  ]

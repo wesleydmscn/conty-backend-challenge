@@ -30,10 +30,22 @@ Tempo médio: 2 a 3 horas.
 }
 ```
 
-**Saída (exemplo livre):**
+**Formato de saída (exemplo):**
 
+```json
+{
+  "batch_id": "2025-10-05-A",
+  "processed": 2,
+  "successful": 2,
+  "failed": 0,
+  "duplicates": 0,
+  "details": [
+    {"external_id": "u1-001", "status": "paid", "amount_cents": 35000},
+    {"external_id": "u2-002", "status": "paid", "amount_cents": 120000}
+  ]
+}
 ```
-Processados: 2 | Pagos: 2 | Falhos: 0 | Duplicados: 0
+
 ```
 
 ### Regras simples

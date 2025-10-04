@@ -1,0 +1,11 @@
+[
+    {
+      "id": "camp001",
+      "brand": "Banco X",
+      "goal": "installs",
+      "tags_required": ["fintech", "investimentos"],
+      "audience_target": {"country": "BR", "age_range": [20, 35]},
+      "budget_cents": 5000000,
+      "deadline": "2025-11-15"
+    }
+  ]
