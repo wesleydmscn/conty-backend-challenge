@@ -32,6 +32,35 @@
 * Dados sensíveis reais: **não use**.
 
 ---
+---
+
+# README_LOCAL.md (modelo para cada submissão)
+
+```md
+# Desafio Conty – {Seu Nome / @github}
+
+> **Local da submissão:** `submissions/{github-username}/{pix|recommendations}`
+
+## Como rodar
+- Requisitos: Docker (ou Go/Node/Python + Postgres/SQLite)
+- Comandos: `make dev` / `docker compose up` / scripts equivalentes **dentro desta pasta**
+- Variáveis: ver `.env.example`
+
+## Endpoints/CLI
+- Liste endpoints/flags e exemplos de request/response (cURL/Postman)
+
+## Arquitetura
+- Desenho rápido das camadas
+- Principais decisões e trade‑offs
+- O que faria diferente com mais tempo
+
+## Testes
+- Como rodar e o que cobre
+
+## IA/Libraries
+- Onde usou IA
+- O que é seu vs. de terceiros
+```
 
 Dúvidas? 
 Entre em contato conosco. 
