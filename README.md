@@ -19,7 +19,6 @@
 * **Confiabilidade**: idempotência, tratamento de falhas, testes mínimos.
 * **Clareza**: README, trade‑offs, limites, uso de exemplos.
 * **Performance & Escala**: quando fizer sentido (fila, concorrência controlada).
-* **DX/Operação**: Docker, Makefile, logs, `.env.example`.
 
 ---
 
