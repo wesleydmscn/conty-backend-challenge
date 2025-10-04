@@ -7,6 +7,8 @@
 Pagamos muitos criadores todo mês. 
 Crie um pequeno serviço que recebe uma **lista de pagamentos** e liquida cada item de forma **idempotente**.
 
+Tempo médio: 2 a 3 horas. 
+
 ### O que entregar (mínimo)
 
 * **Uma forma de executar**: CLI **ou** HTTP.
@@ -46,6 +48,10 @@ Processados: 2 | Pagos: 2 | Falhos: 0 | Duplicados: 0
 * Arquitetura e testes.
 * Clareza de documentação.
 
+# Exemplo de chamada HTTP: 
+curl -X POST http://localhost:8080/payouts/batch \
+  -H "content-type: application/json" \
+  --data @seeds/payouts_batch_example.json
 ---
 
 ---

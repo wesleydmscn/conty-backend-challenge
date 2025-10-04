@@ -7,6 +7,8 @@
 
 Dada uma **campanha** (briefing, orçamento, requisitos) e uma base de **criadores** (tags, métricas, histórico), retorne um **ranking** de criadores adequados com justificativas legíveis.
 
+Tempo médio: 2 a 3 horas. 
+
 ### O que entregar (mínimo)
 
 * **Uma forma de executar**: CLI **ou** HTTP (`POST /recommendations`).
@@ -84,6 +86,11 @@ Resposta (exemplo resumido):
 * Clareza do modelo e justificativas.
 * Qualidade dos seeds e testes.
 * Desempenho e simplicidade.
+
+# Exemplo chamada HTTP
+curl -X POST http://localhost:8080/recommendations \
+  -H "content-type: application/json" \
+  -d '{"goal":"installs","tags_required":["fintech"],"country":"BR","budget_cents":500000}'
 
 ---
 
