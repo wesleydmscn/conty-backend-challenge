@@ -32,6 +32,20 @@
 * Dados sensíveis reais: **não use**.
 
 ---
+
+## Ranking TOP 5 – Melhores Soluções até agora
+
+> ⚠️ O ranking abaixo **não está em ordem 100% definitiva**, mas representa os **5 candidatos que consideramos apresentar as melhores soluções** até agora.  
+
+| Desenvolvedor | Stack | Desafio | Destaques | Link PR | GitHub |
+|---------------|-------|---------|-----------|---------|--------|
+| **ErickJ3** | Rust + Axum + Redis | PIX | Arquitetura distribuída sofisticada, idempotência robusta, documentação completa | [PR #2](https://github.com/Conty-App/conty-backend-challenge/pull/2) | [@ErickJ3](https://github.com/ErickJ3) |
+| **Cezar Fuhr** | Python + FastAPI + PostgreSQL | PIX | Segurança enterprise, cobertura de testes ~90%, arquitetura limpa | [PR #12](https://github.com/Conty-App/conty-backend-challenge/pull/12) | [@cezarfuhr](https://github.com/cezarfuhr) |
+| **Antonio Bet** | NestJS + Prisma | RECOMMENDATIONS | Algoritmos avançados, base matemática sólida, documentação detalhada | [PR #7](https://github.com/Conty-App/conty-backend-challenge/pull/7) | [@antoniobet](https://github.com/antoniobet) |
+| **Hendel Santos** | Go + Clean Architecture | PIX | Arquitetura clara, concorrência com goroutines, configuração profissional | [PR #3](https://github.com/Conty-App/conty-backend-challenge/pull/3) | [@hendelsantos](https://github.com/hendelsantos) |
+| **Matheus André** | Go + Clean Architecture (In-Memory) | PIX | Testes de concorrência, arquitetura hexagonal, documentação prática | [PR #8](https://github.com/Conty-App/conty-backend-challenge/pull/8) | [@matheusandre1](https://github.com/matheusandre1) |
+
+
 ---
 
 # README_LOCAL.md (modelo para cada submissão)
