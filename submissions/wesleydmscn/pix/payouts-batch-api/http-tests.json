@@ -1,0 +1,53 @@
+[
+  {
+    "batch_id": "2025-10-06-A",
+    "items": [
+      {
+        "external_id": "u1-001",
+        "user_id": "u1",
+        "amount_cents": 35000,
+        "pix_key": "u1@email.com"
+      },
+      {
+        "external_id": "u2-002",
+        "user_id": "u2",
+        "amount_cents": 120000,
+        "pix_key": "+55 11 91234-5678"
+      }
+    ]
+  },
+  {
+    "batch_id": "2025-10-06-B",
+    "items": [
+      {
+        "external_id": "u3-003",
+        "user_id": "u3",
+        "amount_cents": 50000,
+        "pix_key": "u3@email.com"
+      },
+      {
+        "external_id": "u4-004",
+        "user_id": "u4",
+        "amount_cents": 78000,
+        "pix_key": "+55 21 99876-5432"
+      }
+    ]
+  },
+  {
+    "batch_id": "2025-10-06-C",
+    "items": [
+      {
+        "external_id": "u1-001",
+        "user_id": "u1",
+        "amount_cents": 35000,
+        "pix_key": "u1@email.com"
+      },
+      {
+        "external_id": "u5-005",
+        "user_id": "u5",
+        "amount_cents": 25000,
+        "pix_key": "u5@email.com"
+      }
+    ]
+  }
+]
