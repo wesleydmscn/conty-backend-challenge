@@ -6,5 +6,6 @@ export const bullmqConfig: BullRootModuleOptions = {
   connection: {
     host: env.redisHost,
     port: env.redisPort,
+    password: env.redisPassword,
   },
 };

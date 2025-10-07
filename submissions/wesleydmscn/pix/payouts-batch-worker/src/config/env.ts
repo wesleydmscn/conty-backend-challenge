@@ -17,6 +17,9 @@ class Env {
   redisPort: number;
 
   @IsString()
+  redisPassword: string;
+
+  @IsString()
   @IsNotEmpty()
   bullmqQueueName: string;
 }
@@ -26,6 +29,7 @@ export const env: Env = plainToInstance(Env, {
   redisPort: process.env.REDIS_PORT
     ? Number(process.env.REDIS_PORT)
     : undefined,
+  redisPassword: process.env.REDIS_PASSWORD || '',
   bullmqQueueName: process.env.BULLMQ_QUEUE_NAME,
 });
 
